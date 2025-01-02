@@ -35,10 +35,19 @@ if __name__ == "__main__":
         help="Monitor the serial output of the device",
     )
 
+    projects = {
+        "aio-test": "aio-test",
+        "grow-light-test": "grow-light-test"
+    }
+
+    parser.add_argument(
+        "project",
+        choices=projects.keys(),
+        help="The project to build",
+    )
+    
     args = parser.parse_args()
 
-    os.chdir("aio-test")
+    os.chdir(args.project)
 
     main(args.deploy, args.monitor)
-
-# if monitoring is ever needed run pio device monitor
