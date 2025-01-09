@@ -37,7 +37,9 @@ if __name__ == "__main__":
 
     projects = {
         "aio-test": "aio-test",
-        "grow-light-test": "grow-light-test"
+        "grow-light-test": "grow-light-test",
+        "mfg-bringup-test-gpio": "mfg-bringup-test-gpio",
+        "mfg-bringup-test-i2c": "mfg-bringup-test-i2c",
     }
 
     parser.add_argument(
