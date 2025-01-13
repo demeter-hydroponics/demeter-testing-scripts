@@ -40,6 +40,8 @@ if __name__ == "__main__":
         "grow-light-test": "grow-light-test",
         "mfg-bringup-test-gpio": "mfg-bringup-test-gpio",
         "mfg-bringup-test-i2c": "mfg-bringup-test-i2c",
+        "mixing-test": "mixing-test",
+        "light-test": "light-test",
     }
 
     parser.add_argument(
