@@ -42,6 +42,7 @@ if __name__ == "__main__":
         "mfg-bringup-test-i2c": "mfg-bringup-test-i2c",
         "mixing-test": "mixing-test",
         "light-test": "light-test",
+        "light-test-2": "light-test-2",
     }
 
     parser.add_argument(
