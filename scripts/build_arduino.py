@@ -43,6 +43,7 @@ if __name__ == "__main__":
         "mixing-test": "mixing-test",
         "light-test": "light-test",
         "light-test-2": "light-test-2",
+        "mixing-valve-test" : "mixing-valve-test",
     }
 
     parser.add_argument(
